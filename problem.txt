@@ -1,0 +1,36 @@
+test time limit: 1 second
+memory limit per test: 256 megabytes
+input: standard input
+conclusion: standard output
+
+A little girl is learning to reduce the number of accruals, but she does it wrong with multi-digit numbers. Tanya calculates units of measurement according to the following algorithm:
+
+    if the last digit was calculated unequal,
+    if the last digit is significant, it divides the number by 10.
+
+You are given an integer n
+. Tanya wants to subtract from thousands of units at a time. Your task is to get the result after all k
+
+subtractions.
+
+It is guaranteed that the answer will be a multi-digit number.
+
+Input data:
+
+The first line of the input contains two integers n
+and k (2≤n≤109, 1≤k≤50) is the number from which Tanya wants to subtract one and the number of subtractions, respectively.
+
+Output:
+
+Print one integer — the result of subtraction from n k units once.
+
+It is guaranteed that the answer will be a positive integer.
+
+Example
+
+Input data:
+512 4
+
+Output:
+50
+
